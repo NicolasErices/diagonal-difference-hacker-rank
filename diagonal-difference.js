@@ -24,8 +24,8 @@ function matrixTwoDimension(arr){
     let sumRightDiagonal = diagonalRight.reduce((acc, cur) => {
         return acc + cur
     })
-    let Outcome = Math.abs(sumRightDiagonal - sumLeftDiagonal)
-    return Outcome
+    let outcome = Math.abs(sumRightDiagonal - sumLeftDiagonal)
+    return outcome
 }
 
 matrixTwoDimension(arr)
